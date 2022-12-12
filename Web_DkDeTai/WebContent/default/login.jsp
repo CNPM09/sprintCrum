@@ -26,6 +26,7 @@
         <div class="login">
             <div class="login__header"><h3>ĐĂNG NHẬP</h3></div>
             <form class = "login__form" action="<%=context%>/login" method="POST">
+<%--                <input  value="${}">--%>
                 <div class="login__form-position">
                     <input type="radio" name="position_choice" id="sinhvien" value="Sinh viên">
                     <label for="sinhvien">Sinh viên</label>
@@ -41,7 +42,6 @@
                     <input type="password" name="password" id="password" value="${password}" placeholder="Mật khẩu">
                 </div>
                 <input type="submit" value="Join Now">
-            </form>
             </form>
         </div>
     </div>

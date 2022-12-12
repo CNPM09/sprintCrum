@@ -11,10 +11,10 @@
     <title>Header</title>
 
     <!-- logo title -->
-    <link rel="icon" href="./asset/img/fit-logo.png" type="image/icon type">
+    <link rel="icon" href="${pageContext.request.contextPath}/asset/img/fit-logo.png" type="image/icon type">
     <!-- CSS -->
-    <link rel="stylesheet" href="./asset/css/base.css">
-    <link rel="stylesheet" href="./asset/css/header-styles.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/asset/css/base.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/asset/css/header-styles.css">
     <!-- icon -->
     <script src="https://kit.fontawesome.com/18ce1a4b11.js" crossorigin="anonymous"></script>
 </head>
@@ -22,7 +22,7 @@
     <header class="header">
         <div class="header__container">
             <div class="header__container--left">
-                <img src="./asset/img/UTE.png" alt="HCMUTE logo" class="header__container-logo">
+                <img src="${pageContext.request.contextPath}/asset/img/UTE.png" alt="HCMUTE logo" class="header__container-logo">
                 <div class="header__container-content">
                     <h1 class="header__container-content-VNName">
                         TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP.HCM
@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="header__container--right">
-                <img src="./asset/img/Banner_1.png" alt="">
+                <img src="${pageContext.request.contextPath}/asset/img/Banner_1.png" alt="">
             </div>
         </div>
         <div class="header__nav">

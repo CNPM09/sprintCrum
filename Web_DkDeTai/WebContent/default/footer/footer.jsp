@@ -9,10 +9,10 @@
         <title>Footer</title>
     
         <!-- logo title -->
-        <link rel="icon" href="./asset/img/fit-logo.png" type="image/icon type">
+        <link rel="icon" href="${pageContext.request.contextPath}/asset/img/fit-logo.png" type="image/icon type">
         <!-- CSS -->
-        <link rel="stylesheet" href="./asset/css/base.css">
-        <link rel="stylesheet" href="./asset/css/footer-styles.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/asset/css/base.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/asset/css/footer-styles.css">
         <!-- icon -->
         <script src="https://kit.fontawesome.com/18ce1a4b11.js" crossorigin="anonymous"></script>
     </head>

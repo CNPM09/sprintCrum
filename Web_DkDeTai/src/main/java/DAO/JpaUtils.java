@@ -17,8 +17,11 @@ public class JpaUtils<T> {
 	private EntityManagerFactory entityManagerFactory;
 
 	public JpaUtils() {
-		String connectionString = "dkDeTai";
+		String connectionString = "Web_DkDeTai";
 		this.entityManagerFactory = Persistence.createEntityManagerFactory(connectionString);
+	}
+	public EntityManagerFactory getEntityManagerFactory() {
+		return entityManagerFactory;
 	}
 
 	public EntityManager getEntityManager() {

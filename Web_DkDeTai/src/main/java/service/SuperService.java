@@ -1,5 +1,7 @@
 package service;
 
+import model.Person;
+
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.Random;
@@ -53,4 +55,5 @@ public class SuperService {
   public String getContextPath() {
     return this.request.getContextPath();
   }
+
 }

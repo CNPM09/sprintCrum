@@ -4,6 +4,12 @@ import java.util.List;
 import java.util.Map;
 
 import model.Person;
+import org.hibernate.Hibernate;
+
+import javax.mail.Session;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
 
 public class PersonDAO extends JpaUtils<Person> implements GenericDAO<Person>{
 	public PersonDAO( ) {
