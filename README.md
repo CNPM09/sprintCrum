@@ -1,12 +1,20 @@
-# sprintCrum
-#Day 1
-#day 2
-#day 3
-#day 4
-#day 5
-#day 6
-#day 7
+# sprintSCrum 1
+#Day 1: Cấu hình giao diện và làm bài tập tuần, thảo luận bài tập
+#day 2: cấu hình JPA và hibernate
+#day 3: Tạo etity và làm các lớp DAO
+#day 4: Tạo các file JPA, phần src
+#day 5: Tiến hành chia luồng chức năng
+#day 6: Làm chức năng đăng nhập, luồng url
+#day 7: làm chức năng đăng nhập và figma
 
+# sprintSCrum 2
+#Day 1: Làm các giao diện figma và chức năng load thông tin user
+#day 2: Chia 4 actor: lecturer. headlecturer. student, admin
+#day 3: cài đặt giao diện, làm bài tập tuần 
+#day 4: Xây dựng chức năng các actor
+#day 5: Xây dựng chức năng các actor 
+#day 6: Xây dựng chức năng các actor
+#day 7: Xây dựng chức năng các actor
 ---
 -clone project: https://github.com/CNPM09/sprintCrum/tree/main/Web_DkDeTai
 - chạy file dkDeTai.sql ---> My SQL
